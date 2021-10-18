@@ -5,5 +5,9 @@
     "taxi":1000,
     "cardealer":1000,
     "mechanic":1000,
-    "bennys":150000
+    "bennys":150000,
+    "tuner":150000,
+    "sunrise":150000,
+    "burgershot":150000,
+    "fbi":150000
 }
