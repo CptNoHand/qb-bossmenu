@@ -1,15 +1,1 @@
-{
-    "police":1000000,
-    "ambulance":500000,
-    "realestate":1000,
-    "taxi":1000,
-    "cardealer":1000,
-    "mechanic":1000,
-    "bennys":150000,
-    "tuner":150000,
-    "sunrise":150000,
-    "burgershot":150000,
-    "fbi":150000,
-    "vu":150000,
-    "lsfd":1500000,
-}
+{"mechanic":1000,"realestate":1000,"taxi":1000,"bennys":49647829,"cardealer":1000,"burgershot":150000,"police":1000000,"sunrise":150000,"ambulance":518000,"tuner":150000,"vu":150000,"lsfd":150000,"fbi":150000}
