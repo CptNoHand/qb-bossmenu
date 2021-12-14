@@ -17,5 +17,6 @@ Config.Jobs = {
     ['tequilala'] = vector3(-568.577, 291.09, 79.18),
     ['rockfordrecords'] = vector3(-1007.86, -264.84, 44.8),
     ['lscustoms'] = vector3(-338.83, -157.5, 44.59),
+    ['redline'] = vector3(-605.41, -919.55, 23.89),
 
 }       
