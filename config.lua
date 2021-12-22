@@ -19,5 +19,6 @@ Config.Jobs = {
     ['lscustoms'] = vector3(-338.83, -157.5, 44.59),
     ['redline'] = vector3(-605.41, -919.55, 23.89),
     ['government'] = vector3(-520.73, -170.02, 42.84),
+    ['catcafe'] = vector3(-578.23, -1067.65, 26.12),
 
 }       
