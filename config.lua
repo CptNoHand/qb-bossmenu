@@ -1,7 +1,7 @@
 Config = {}
 
 Config.Jobs = {
-    ['police'] = vector3(-1113.23, -832.96, 34.36),
+    ['police'] = vector3(462.05, -985.63, 30.73),
     ['ambulance'] = vector3(334.86, -593.96, 43.28),
     ['realestate'] = vector3(-714.75, 261.03, 84.14),
     ['taxi'] = vector3(903.32, -170.55, 74.0),
