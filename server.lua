@@ -149,7 +149,7 @@ AddEventHandler('qb-bossmenu:server:updateGrade', function(target, grade)
             end
         else
             local playerJob = '%' .. Player.PlayerData.job.name .. '%'
-            local result = exports.oxmysql:scalarSync('SELECT job FROM players WHERE citizenid = ? AND job LIKE ?', {target, playerJob})
+            local result = exports.oxmysql:execute('SELECT job FROM players WHERE citizenid = ? AND job LIKE ?', {target, playerJob})
             if result then
                 jobFinal = checkJob(Player.PlayerData.job.name, grade)
                 if jobFinal ~= false then
@@ -190,7 +190,7 @@ AddEventHandler('qb-bossmenu:server:fireEmployee', function(target)
         end
     else
         local playerJob = '%' .. Player.PlayerData.job.name .. '%'
-        local result = exports.oxmysql:scalarSync('SELECT job FROM players WHERE citizenid = ? AND job LIKE ?', {target, playerJob})
+        local result = exports.oxmysql:execute('SELECT job FROM players WHERE citizenid = ? AND job LIKE ?', {target, playerJob})
         if result then
             jobFinal = checkJob('unemployed', 0)
             if jobFinal ~= false then
