@@ -21,5 +21,6 @@ Config.Jobs = {
     ['government'] = vector3(-520.73, -170.02, 42.84),
     ['catcafe'] = vector3(-578.23, -1067.65, 26.12),
     ['pizzathis'] = vector3(796.19, -767.65, 30.77),
+    ['custommotors'] = vector3(37.07, 6463.76, 32.09),
 
 }       
